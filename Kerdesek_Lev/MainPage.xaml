@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Kerdesek_Lev.MainPage">
+
+    <StackLayout>
+        <Label Text="C# teszt" HorizontalOptions="Center" Margin="0,40,0,0"/>
+        <ScrollView Orientation="Vertical" VerticalOptions="CenterAndExpand">
+            <StackLayout x:Name="slQuestions" Orientation="Vertical"/>
+        </ScrollView>
+
+        <StackLayout Orientation="Horizontal" Margin="10">
+            <Button x:Name="btStart" Text="Start" Clicked="btStart_Clicked"/>
+            <Label HorizontalOptions="CenterAndExpand"/>
+            <Button x:Name="btSubmint" Text="Küldés" Clicked="btSubmint_Clicked"/>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
